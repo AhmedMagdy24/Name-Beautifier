@@ -1,0 +1,66 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  
+
+}
+
+body,
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    
+}
+
+body {
+    background-color: orange;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 3em;
+}
+
+p {
+    font-size: 50px;
+}
+
+button {
+    padding: 1em 2em;
+    border: none;
+    font-size: 1.2rem;
+    background: lightblue;
+    border-radius: 999px;
+}
+
+button:hover {
+    cursor: pointer
+}
+
+.input-wrapper {
+    width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.input {
+    width: 50%;
+    height: 3rem;
+    font-size: 20px;
+}
+
+#beautify_btn {
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+#input-btn {
+    display: flex;
+    
+}
